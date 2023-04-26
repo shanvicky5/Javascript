@@ -1,0 +1,10 @@
+var cart=["shirt","bracelet","watch"];
+console.log(cart);
+cart.unshift("doller");
+console.log(cart);
+cart.push("chain","ring");
+console.log(cart);
+cart.pop();
+console.log(cart);
+cart.splice(2,0,"clock");
+console.log(cart);
